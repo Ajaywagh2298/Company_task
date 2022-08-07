@@ -31,11 +31,11 @@ npm install
 ##Run Backend Folder
 
 ```bash
-node node-Server.js
+node server.js
 ```
 OR 
 ```bash
-nodemon node-Server.js
+nodemon server.js
 ```
 #API TABLE
 | Method | URL                                                     | Parameters                                            |
