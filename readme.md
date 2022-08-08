@@ -43,7 +43,7 @@ nodemon server.js
 | GET    | localhost:9000/getContact/id?data_store=:data_store     | { pathParams : contact_id , queryParams: data_store } |
 | POST   | localhost:9000/createContact                            | Null                                                  |
 | PUT    | localhost:9000/updateContact/id?data_store=:data_store  | { pathParams : contact_id , queryParams: data_store } |
-| DELETE | localhost:9000/deleteContact/70041830205?data_store=CRM | { pathParams : contact_id , queryParams: data_store } |
+| DELETE | localhost:9000/deleteContact/70041830205?data_store=:data_store | { pathParams : contact_id , queryParams: data_store } |
 
 
 # Usage
